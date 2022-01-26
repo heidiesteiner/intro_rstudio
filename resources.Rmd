@@ -1,0 +1,50 @@
+---
+title: "Getting Started Resources R Markdown"
+author: "Heidi Steiner"
+date: "1/17/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### RStudio 
+
+- Links to install [R](https://cran.r-project.org/mirrors.html) and [RStudio](https://www.rstudio.com/products/rstudio/download/#download), respectively
+- [Other R language IDEs](https://datascience.stackexchange.com/questions/5345/ide-alternatives-for-r-programming-rstudio-intellij-idea-eclipse-visual-stud)
+
+
+### R Projects
+
+- Read [Good Enough Practices in Scientific Computing](https://doi.org/10.1371/journal.pcbi.1005510)
+
+### I. Script
+
+- Interested in [using python in RStudio](https://support.rstudio.com/hc/en-us/articles/360023654474-Installing-and-Configuring-Python-with-RStudio) alongside your R code? 
+- [Use R Markdown](https://rmarkdown.rstudio.com/lesson-1.html) to generate reports within RStudio
+
+### II. Environment
+
+- [Connect](https://support.rstudio.com/hc/en-us/articles/115010915687-Using-RStudio-Connections-in-the-RStudio-IDE) with data sources
+- Integrated [tutorials!](https://www.rstudio.com/blog/rstudio-1-3-integrated-tutorials/)
+- [Presentations](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations) may be helpful for you. 
+- Like presentations? Learn about using [R Markdown to create slides](https://rmarkdown.rstudio.com/lesson-11.html) (even ppt!)
+
+### III. View
+
+- Want to [publish your R script](https://rpubs.com/about/getting-started)?
+- Need to [publish your research](https://datascience.arizona.edu/RSConnect)? 
+
+### IV. Execute 
+
+- Need to [run scripts in the background](https://www.rstudio.com/blog/rstudio-1-2-jobs/) while still using the IDE? 
+
+### Packages
+
+- [Search](https://rdrr.io/find/?repos=cran%2Cbioc%2Crforge%2Cgithub&page=0&fuzzy_slug=) for useful R packages
+- Install the [tidyverse](https://www.tidyverse.org/packages/) for easy-start coding in R
+
+### Data
+
+- Many packages already exist to import domain-specific data types. If you can't find one...consider [writing one](https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-the-RStudio-IDE)! 
